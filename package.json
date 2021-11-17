@@ -1,0 +1,27 @@
+{
+  "name": "sourcemap-stacktarch-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev ./src/index.ts -P tsconfig.json --no-cache",
+    "build": "tsc -P tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragonlyl/sourcemap-track.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dragonlyl/sourcemap-track/issues"
+  },
+  "homepage": "https://github.com/dragonlyl/sourcemap-track#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  }
+}

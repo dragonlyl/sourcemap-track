@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./lib",
+        "target": "es2017",
+        "module": "commonjs",//组织代码方式
+        "sourceMap": true,
+        "moduleResolution": "node", // 模块解决策略
+        "experimentalDecorators": true, // 开启装饰器定义
+        "allowSyntheticDefaultImports": true, // 允许es6方式import
+        "lib": ["es2015"],
+        // 指定 只有这个文件夹下的type会被编译过程中包含进来
+        // 不指定这个 ../node_modules/@types 以及 ../../xx也会
+        "typeRoots": ["./node_modules/@types"],
+    },
+    "include": ["src/**/*"]
+}
