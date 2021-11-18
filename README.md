@@ -2,7 +2,7 @@
 
 ## 网站链接
 
-[](https://juejin.cn/post/6844904063457312781)
+[从0到1开发一个开源项目(TS + ESlint + Jest + TravisCI)](https://juejin.cn/post/6844904063457312781)
 ## 依赖
 
 yarn add -D typescript ts-node-dev @types/node
