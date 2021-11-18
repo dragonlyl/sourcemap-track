@@ -54,4 +54,14 @@ yarn add  -D prettier tslint tslint-config-prettier
 
 ## 安装git校验钩子
 
-yarn add -D husky
+yarn add -D husky // version 为7以上配置发生了变化
+### 创建脚本
+
+`npm set-script prepare "husky install" && npm run prepare` // 需要配置prepare脚本(在npm install 之后自动执行)
+
+### 创建git hooks
+
+npx husky add .husky/pre-commit "npm run format && npm run lint && npm test" // 在提交之前
+
+[husky7.0.1 + commitlint 配置提交代码检查和规范踩坑指南](https://juejin.cn/post/6988116616923840549) // commitlint
+[手摸手教你使用最新版husky(v7.0.1)让代码更优雅规范](https://juejin.cn/post/6982192362583752741) // lint-staged  git commit规范
